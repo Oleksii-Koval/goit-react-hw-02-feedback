@@ -42,7 +42,7 @@ export class App extends Component {
           <Notification
             message={
               total === 0 ? (
-                'There is no feedback'
+                <p style={{ textAlign: 'center' }}>There is no feedback</p>
               ) : (
                 <Statistics
                   good={good}
