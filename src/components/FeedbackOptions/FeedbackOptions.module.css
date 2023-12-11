@@ -1,0 +1,45 @@
+.buttons_container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.good_btn {
+  background-color: rgba(40, 255, 69, 0.444);
+  border: none;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.good_btn:hover {
+  background-color: rgb(40, 255, 69);
+}
+
+.neutral_btn {
+  background-color: rgba(47, 217, 255, 0.413);
+  border: none;
+  border-radius: 15px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.neutral_btn:hover {
+  background-color: rgb(47, 217, 255);
+}
+
+.bad_btn {
+  background-color: rgba(255, 147, 47, 0.483);
+  border: none;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.bad_btn:hover {
+  background-color: rgb(255, 124, 1);
+}
